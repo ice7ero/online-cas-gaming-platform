@@ -1,0 +1,39 @@
+[2021-06-28 05:56:38] production.DEBUG: select count(*) as aggregate from `games` where `games`.`status` = ? {"params":[1],"time":86.9} 
+[2021-06-28 05:56:38] production.DEBUG: select * from `games` where `games`.`status` = ? and `games`.`win` > ? order by `id` desc limit 1 {"params":[1,"games.bet"],"time":1.42} 
+[2021-06-28 05:56:43] production.DEBUG: select count(*) as aggregate from `games` where `games`.`status` = ? {"params":[1],"time":24.8} 
+[2021-06-28 05:56:43] production.DEBUG: select * from `games` where `games`.`status` = ? and `games`.`win` > ? order by `id` desc limit 1 {"params":[1,"games.bet"],"time":0.58} 
+[2021-06-28 05:56:46] production.DEBUG: select count(*) as aggregate from `games` where `games`.`status` = ? {"params":[1],"time":28.18} 
+[2021-06-28 05:56:46] production.DEBUG: select * from `games` where `games`.`status` = ? and `games`.`win` > ? order by `id` desc limit 1 {"params":[1,"games.bet"],"time":0.59} 
+[2021-06-28 05:57:02] production.DEBUG: select count(*) as aggregate from `games` where `games`.`status` = ? {"params":[1],"time":4.01} 
+[2021-06-28 05:57:02] production.DEBUG: select * from `games` where `games`.`status` = ? and `games`.`win` > ? order by `id` desc limit 1 {"params":[1,"games.bet"],"time":0.57} 
+[2021-06-28 05:57:11] production.DEBUG: select * from `users` where `email` = ? and `status` = ? limit 1 {"params":["qa.webdeveloperteam20210325@gmail.com",0],"time":132.28} 
+[2021-06-28 05:57:11] production.DEBUG: update `users` set `remember_token` = ? where `id` = ? {"params":["DhR7kYoiROnMyYVkxOOl4bsAUcEiWsI4TqZNGbTo7WnKgbSMdBNHSnxl9FcO",1],"time":80.07} 
+[2021-06-28 05:57:11] production.DEBUG: update `users` set `last_login_at` = ?, `users`.`updated_at` = ? where `id` = ? {"params":["2021-06-28 05:57:11","2021-06-28 05:57:11",1],"time":46.34} 
+[2021-06-28 05:57:11] production.DEBUG: select * from `accounts` where `accounts`.`user_id` = ? and `accounts`.`user_id` is not null limit 1 {"params":[1],"time":3.19} 
+[2021-06-28 05:57:11] production.DEBUG: select * from `social_profiles` where `social_profiles`.`user_id` in (1) {"params":[],"time":0.86} 
+[2021-06-28 05:57:12] production.DEBUG: select * from `users` where `id` = ? limit 1 {"params":[1],"time":4.81} 
+[2021-06-28 05:57:12] production.DEBUG: select * from `users` where `id` = ? limit 1 {"params":[1],"time":3.93} 
+[2021-06-28 05:57:12] production.DEBUG: select * from `games` where `games`.`status` = ? order by `created_at` desc limit 10 {"params":[1],"time":0.98} 
+[2021-06-28 05:57:14] production.DEBUG: select * from `users` where `id` = ? limit 1 {"params":[1],"time":21.62} 
+[2021-06-28 05:57:14] production.DEBUG: select * from `users` where `id` = ? limit 1 {"params":[1],"time":3.46} 
+[2021-06-28 06:09:44] production.DEBUG: select * from `users` where `id` = ? limit 1 {"params":[1],"time":4.45} 
+[2021-06-28 06:09:44] production.DEBUG: select * from `users` where `id` = ? limit 1 {"params":[1],"time":5.25} 
+[2021-06-28 06:09:44] production.DEBUG: select * from `games` where `games`.`status` = ? order by `created_at` desc limit 10 {"params":[1],"time":1.05} 
+[2021-06-28 06:09:47] production.DEBUG: select * from `users` where `id` = ? limit 1 {"params":[1],"time":3.51} 
+[2021-06-28 06:09:47] production.DEBUG: select * from `users` where `id` = ? limit 1 {"params":[1],"time":26.46} 
+[2021-06-28 06:16:15] production.DEBUG: select * from `users` where `id` = ? limit 1 {"params":[1],"time":4.68} 
+[2021-06-28 06:16:15] production.DEBUG: select * from `users` where `id` = ? limit 1 {"params":[1],"time":4.18} 
+[2021-06-28 06:16:16] production.DEBUG: select * from `games` where `games`.`status` = ? order by `created_at` desc limit 10 {"params":[1],"time":0.54} 
+[2021-06-28 06:17:26] production.DEBUG: select * from `users` where `id` = ? limit 1 {"params":[1],"time":27.03} 
+[2021-06-28 06:17:26] production.DEBUG: select * from `users` where `id` = ? limit 1 {"params":[1],"time":86.06} 
+[2021-06-28 06:42:52] production.DEBUG: select * from `users` where `id` = ? limit 1 {"params":[1],"time":5.88} 
+[2021-06-28 06:42:53] production.DEBUG: select * from `users` where `id` = ? limit 1 {"params":[1],"time":29.62} 
+[2021-06-28 06:42:53] production.DEBUG: select * from `games` where `games`.`status` = ? order by `created_at` desc limit 10 {"params":[1],"time":0.69} 
+[2021-06-28 07:48:00] production.DEBUG: select * from `users` where `id` = ? limit 1 {"params":[1],"time":379.16} 
+[2021-06-28 07:48:01] production.DEBUG: select * from `accounts` where `accounts`.`user_id` in (1) {"params":[],"time":40.06} 
+[2021-06-28 07:48:01] production.DEBUG: select * from `social_profiles` where `social_profiles`.`user_id` in (1) {"params":[],"time":104.97} 
+[2021-06-28 07:48:01] production.DEBUG: select count(*) as aggregate from `games` where `games`.`status` = ? {"params":[1],"time":40.98} 
+[2021-06-28 07:48:01] production.DEBUG: select * from `games` where `games`.`status` = ? and `games`.`win` > ? order by `id` desc limit 1 {"params":[1,"games.bet"],"time":115.04} 
+[2021-06-28 07:48:04] production.DEBUG: select * from `users` where `id` = ? limit 1 {"params":[1],"time":21.09} 
+[2021-06-28 07:48:04] production.DEBUG: select * from `users` where `id` = ? limit 1 {"params":[1],"time":26.33} 
+[2021-06-28 07:48:04] production.DEBUG: select * from `games` where `games`.`status` = ? order by `created_at` desc limit 10 {"params":[1],"time":38.53} 
